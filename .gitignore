@@ -1,0 +1,5 @@
+*.db
+config/wid.yaml
+.DS_Store
+.aider*
+build/

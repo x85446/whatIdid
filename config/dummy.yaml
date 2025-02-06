@@ -1,0 +1,20 @@
+plugins:
+  chrome:
+    enabled: true
+    # Mac Chrome history paths (default and profiles)
+    history_paths:
+      - "~/Library/Application Support/Google/Chrome/Default/History"
+      - "~/Library/Application Support/Google/Chrome/Profile 1/History"
+      - "~/Library/Application Support/Google/Chrome/Profile 2/History"
+  git:
+    enabled: false
+    repos:
+      - "/path/to/repo1"
+      - "/path/to/repo2"
+  outlook:
+    enabled: false
+  dummy:
+    enabled: true
+
+retention:
+  delete_after_days: 90
